@@ -27,7 +27,7 @@ def stringMaker():
         print('No nice column/row combinations appear to be possible other than n by 1 (or 1 by n), consider padding your string')
     goOn=input('Do you want to pad and try again? y/*  ')
     if (goOn=='y'):
-        stringMaker()
+        inString=stringMaker()
     return inString
             
 inString=stringMaker()
